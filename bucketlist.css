@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    }
+    .header{
+    min-height:100vh;
+    width:100;
+    background-image: linear-gradient(rgba(1,9,30,0.7),rgba(4,9,30,0.7)),url(images/Pic3.jpg);
+     background-position:center;
+     background-size:cover;
+     position: relative;
+    }
+   
+    nav{
+        display: flex;
+        padding: 1% 6%;
+        justify-content:space-between;
+        align-items:center;
+    }
+    nav img{
+        width:53px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.102);
+        shape-image-threshold: circle;
+        
+    }
+
+    .nav-links{
+        flex:1;
+        text-align:right;
+    }
+    .nav-links .button1 button{
+        display:inline-block;
+	    text-decoration:none;
+	    color:#fff;
+	    border:1px solid #fff;
+	    padding:9px 24px;
+	    font-size:13px;
+	    background:transparent;
+	    position:relative;
+	    cursor:pointer;
+        
+    }
+    .button-group11{
+        display:inline-block;
+	    text-decoration:none;
+	    color:black;
+	    border:1px solid rgb(211, 234, 11);
+	    padding:9px 24px;
+	    font-size:13px;
+	    background:yellow;
+	    position:relative;
+	    cursor:pointer;
+      
+    }
+    .nav-links ul li{
+        list-style:none;
+        display:inline-block;
+        padding:8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color:#fff;
+        text-decoration:none;
+        font-size:15px;
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+    
+    .text-box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 54%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align:center;
+    }
+    .text-box img{
+        margin:10px 0 -15px;
+        width: 120px;
+    }
+    .text-box h1{
+        margin:10px 0 -15px;
+        font-size:80px;
+    }
+    .text-box p{
+        margin:10px 0 20px;
+        font-size:31px;
+        color:#fff;
+    }
+        
+  .button-group{
+    display:inline-block;
+	text-decoration:none;
+	color:#fff;
+	border:1px solid #fff;
+	padding:12px 34px;
+	font-size:13px;
+	background:transparent;
+	position:relative;
+	cursor:pointer;
+    letter-spacing: 1px;
+}
+.button-group:hover{
+	border:1px solid #f44336;
+	background:#f44336;
+}
+.button-group1{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid rgb(27, 69, 236);
+    padding:12px 34px;
+    font-size:13px;
+    background:blue;
+    position:relative;
+    cursor:pointer;
+    letter-spacing: 1px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    top: 80%;
+  
+}
+.app{
+    display: flex;
+    color: #fff;
+    margin: 0px 50px;
+    top: 80%;
+    
+    
+}
+.app p{
+    margin-top: 15px;
+    font-size: 11px;
+    text-align: left;
+    padding: 0 10px 0 0;
+    position: relative;
+    margin-top: 85px;
+}
+.s1{
+    font-size: 20px;
+    margin-top: 85px;
+}
+.img{
+    background-image: url(images/Pic1.png);
+    background-size: cover;
+    height: 45px;
+    width: 70px;
+    border-radius: 40px;
+    margin-top: 85px;
+    
+}  
+
+.travel{
+    display: flex;
+    color: #fff;
+}
+.img1{
+    background-image: url(images/Pic2.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-top: 85px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.travel .p1{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0 10px 10px 0;
+    position: relative;
+    margin-top: 80px;
+}
+.s2{
+    font-size: 12px;
+    float: left;
+}
+.so{
+    margin-top: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
